@@ -54,8 +54,8 @@ Tujuan utama proyek ini adalah memahami bagaimana **frontend Angular** dan **bac
 
 ### 1️⃣ Clone repository
 ```bash
-git clone https://github.com/<username>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/jojohyperbackend-hub/Analog.js-testing-open-source.git
+cd Analog.js-testing-open-source
 ```
 
 ### 2️⃣ Install dependencies
