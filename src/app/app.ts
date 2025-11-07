@@ -1,9 +1,22 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { routes } from './app.config';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  template: `<router-outlet />`,
+  standalone: true,
+  imports: [RouterModule],
+  template: `
+    <nav style="display:flex; gap:1rem;">
+      <a routerLink="/">Home</a>
+      <a routerLink="/about">About</a>
+    </nav>
+    <hr />
+    <router-outlet />
+  `
 })
-export class App {}
+export class AppComponent {}
+
+export const appConfig = {
+  providers: []
+};
